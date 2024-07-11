@@ -1,5 +1,6 @@
+
 {
-    "name": "bookstore",
+    "name": "Programbase",
     "version": "1.0.0",
     "description": "mern project",
     "main": "index.js",
