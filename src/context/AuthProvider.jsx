@@ -1,6 +1,7 @@
-import React, { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 export const AuthContext = createContext();
+// eslint-disable-next-line react/prop-types
 export default function AuthProvider({ children }) {
   const initialAuthUser = localStorage.getItem("Users");
   const [authUser, setAuthUser] = useState(

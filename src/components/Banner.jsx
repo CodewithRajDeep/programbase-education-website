@@ -1,9 +1,27 @@
+import  { useState } from 'react';
+import banner from '../../public/Banner.png';
+import { handleEmailSubmit } from './emailHandler';
 
-import banner from "../../public/Banner.png";
 function Banner() {
-  return (
+  const [email, setEmail] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setErrorMessage("");
+
+    try {
+      const response = await handleEmailSubmit(email);
+      console.log('Email sent:', response);
+      setEmail('');
+    } catch (error) {
+      setErrorMessage(error);
+    }
+  };
+
+  return(
     <>
-      <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10">
+    <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10">
         <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-36">
           <div className="space-y-8">
             <h1 className="text-2xl md:text-4xl font-bold">
@@ -23,8 +41,9 @@ function Banner() {
               </svg>
               <input type="text" className="grow" placeholder="Email" />
             </label>
+            {errorMessage && <p className="text-red-500">{errorMessage}</p>}
           </div>
-          <button className="btn mt-6 btn-secondary">Get Started</button>
+          <button className="btn mt-6 btn-secondary"  onClick={handleSubmit}>Get Started</button>
         </div>
         <div className=" order-1 w-full mt-20 md:w-1/2">
           <img
@@ -34,8 +53,9 @@ function Banner() {
           />
         </div>
       </div>
+
     </>
   );
-}
+  }
 
 export default Banner;

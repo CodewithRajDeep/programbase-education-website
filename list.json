@@ -1,0 +1,82 @@
+[
+    {
+        "id" : 1,
+        "name" : "Open Source book",
+        "title" : "Introduction to Open Source",
+        "price"  : "0",
+        "category" : "Free",
+        "image" : "https://miro.medium.com/v2/resize:fit:1071/1*Mo8jBqqAyEvLP5HNpffxLg.png"
+    },
+    {
+        "id" : 2,
+        "name" : "Data communication and networks",
+        "title" : "Introduction to DCCN",
+        "price"  : "0",
+        "category" : "Free",
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSES8iWIMI5BNyVM3RbjVepLPSc7U4Sb-f73A&s"
+    },
+    {
+        "id" : 3,
+        "name" : "Placements Prep-1",
+        "title" : "Introduction to Placement Prep PYQ ",
+        "price"  : "0",
+        "category" : "Free",
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbwlRehdezAWMbMlsxtlZ34BskyfMnhSB7og&s"
+    },
+    {
+        "id" : 4,
+        "name" : "Placements Prep-2",
+        "title" : "Introduction to Placement Prep",
+        "price"  : "0",
+        "category" : "Free",
+        "image" : "https://play-lh.googleusercontent.com/E64JyZeTNxHb8lfmWoXnDfNkX6kib4D4Jw9Nv755R6YqdZtsaML8ajsnDE_-KZxA2Jw"
+    },
+    {
+        "id" : 5,
+        "name" : "Open Source Initiatives",
+        "title" : "Introduction to Open Source and Open Standards",
+        "price"  : "0",
+        "category" : "Free",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/e/eb/Open_Source_Initiative.svg"
+    },
+    {
+        "id" : 6,
+        "name" : "Advance Database and Management System",
+        "title" : "Introduction to ADBMS",
+        "price"  : "0",
+        "category" : "Free",
+        "image" : "https://c8.alamy.com/comp/2H2YB8K/adbms-concept-illustration-using-computer-chip-in-circuit-board-adbms-close-up-of-integrated-circuits-board-background-adbms-on-electronic-computer-2H2YB8K.jpg"
+    },
+    {
+        "id" : 7,
+        "name" : "Linux",
+        "title" : "Advance linux scripting",
+        "price"  : "0",
+        "category" : "Free",
+        "image" : "https://media.geeksforgeeks.org/wp-content/uploads/s2-1.jpg"
+    },
+    {
+        "id" : 8,
+        "name" : "XML ",
+        "title" : "Introduction to XML",
+        "price"  : "0",
+        "category" : "Free",
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLsNrKle3qGY542pTJjomqXPtKqv2JEOjvaQ&s"
+    },
+    {
+        "id" : 9,
+        "name" : "Job interview Prep 1",
+        "title" : "Introduction to Job Interview",
+        "price"  : "0",
+        "category" : "Free",
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6OKxgOYstom7qNTMpL49z9dP2EVwA-LXqvA&s"
+    },
+    {
+        "id" : 10,
+        "name" : "job Interview Prep 2",
+        "title" : "Introduction to Job Interview and mock tests",
+        "price"  : "0",
+        "category" : "Free",
+        "image" : "https://miro.medium.com/v2/resize:fit:1071/1*Mo8jBqqAyEvLP5HNpffxLg.png"
+    }
+]

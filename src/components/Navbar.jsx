@@ -44,15 +44,11 @@ function Navbar() {
         <a href="/course">Course</a>
       </li>
       <li>
-        <a>Contact</a>
-      </li>
-      <li>
-        <a>About</a>
+        <a href="/support">Support</a>
       </li>
     </>
   );
   return (
-    <>
       <div
         className={` max-w-screen-2xl container mx-auto md:px-20 px-4 dark:bg-slate-800 dark:text-white fixed top-0 left-0 right-0 z-50 ${
           sticky
@@ -63,11 +59,7 @@ function Navbar() {
         <div className="navbar ">
           <div className="navbar-start">
             <div className="dropdown">
-              <div
-                tabIndex={0}
-                role="button"
-                className="btn btn-ghost lg:hidden"
-              >
+              <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
@@ -118,7 +110,6 @@ function Navbar() {
               </label>
             </div>
             <label className="swap swap-rotate">
-              {/* this hidden checkbox controls the state */}
               <input
                 type="checkbox"
                 className="theme-controller"
@@ -150,12 +141,7 @@ function Navbar() {
               <Logout />
             ) : (
               <div className="">
-                <a
-                  className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
-                  onClick={() =>
-                    document.getElementById("my_modal_3").showModal()
-                  }
-                >
+                <a className='bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer' onClick={() => document.getElementById("my_modal_3").showModal()}>
                   Login
                 </a>
                 <Login />
@@ -164,7 +150,6 @@ function Navbar() {
           </div>
         </div>
       </div>
-    </>
   );
 }
 
