@@ -7,9 +7,7 @@ const Chatbot = () => {
 
   async function generateAnswer() {
     setAnswer("loading...");
-    const response = await axios({
-      url:
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBaGmV2g2iBZtcIKU5xUUnzmRYirEJKZXA",
+    const response = "",
       method: "post",
       data: { contents: [{ parts: [{ text: question }] }] },
     });
