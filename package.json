@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-simple-chatbot": "^0.6.1",
+    "styled-components": "^4.4.1"
+  }
+}
