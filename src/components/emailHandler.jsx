@@ -2,9 +2,9 @@ import emailjs from 'emailjs-com';
 import { toast } from 'react-hot-toast';
 
 export const handleEmailSubmit = async (email) => {
-  const serviceId = 'service_qt78pu5';
-  const templateId = 'template_ls4dtbo';
-  const userId = 'CbkKqpgGYwE6ltIAA';
+  const serviceId = '';
+  const templateId = ';
+  const userId = '';
 
   const validateEmail = (email) => {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
