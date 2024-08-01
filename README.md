@@ -31,7 +31,7 @@ educational resources more inclusive, ensuring that individuals with disabilitie
   ⦁ Node dependencies  & react-native version- current.
 
 <img src="https://www.doynt.com/blog/wp-content/uploads/2018/04/animation.gif" width="256"/>
-
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHB4c3RqcnRyMmtoZzFhY3g0aXM4dGwwcjYyYWlzdWx6N3M0ZHZsciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pqMSyHmekA1Qe7Utp7/giphy.webp" width="256"/>
 
 
 
