@@ -11,7 +11,7 @@ educational resources more inclusive, ensuring that individuals with disabilitie
 
 <img src= "https://sithcomputers.com/wp-content/uploads/2021/02/11th-and-12th-cs-1.gif" width="256"/>
 
-## Hardware   Requirements : 
+## Hardware-Requirements : 
   ⦁	Development Machine: Computer/Laptop.
   ⦁	Processor : 64-bit, four-core, 2.4 GHz minimum per core.
   ⦁	Ram : 4 GB for developer and evaluation use.
